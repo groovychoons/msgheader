@@ -1,0 +1,86 @@
+
+.toolbar {
+    background-color: #eae4e2;
+    color: #4c4c4c;
+    width: 100%;
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    padding-top: 13px;
+    padding-left: 30px;
+    height: 70%;
+    float: left;
+}
+
+.links {
+    padding-top: 32px;
+    padding-left: 30px;
+    float: left;
+    cursor: pointer;
+}
+.icons {
+    width: 10%;
+    padding: 22px 40px 0px 0px;
+    float: right;
+}
+
+button {
+    border: none;
+    background-color: #eae4e2;
+    color:#4c4c4c;
+    font-size: 0.95em;
+    float: left;
+}
+
+.dropdown {
+    float: left;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 8px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.8em;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+p {
+    font-size: 0.8em;
+    margin-left: 16px;
+    color: #009FDA;
+    margin: 4px 16px;
+}
+
+.two-column {
+    min-width: 450px !important;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
